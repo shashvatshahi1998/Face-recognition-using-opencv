@@ -53,7 +53,7 @@ while True:
 
         # Check the ID if exist 
         if(Id == 1):
-            Id = "Ambesh Shahi {0:.2f}%".format(round(100 - confidence, 2))
+            Id = "Shashvat Chand Shahi {0:.2f}%".format(round(100 - confidence, 2))
 
         # Put text describe who is in the picture
         cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
