@@ -56,8 +56,8 @@ while True:
             Id = "Shashvat Chand Shahi {0:.2f}%".format(round(100 - confidence, 2))
 
         # Put text describe who is in the picture
-        cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
-        cv2.putText(im, str(Id), (x,y-40), font, 1, (255,255,255), 3)
+        cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (255,0,0), -1)
+        cv2.putText(im, str(Id), (x,y-40), font, 1, (255,0,255), 3)
 
     # Display the video frame with the bounded rectangle
     cv2.imshow('im',im) 
